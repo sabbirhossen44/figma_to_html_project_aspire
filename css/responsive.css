@@ -1,0 +1,330 @@
+@media only screen and (min-device-width: 769px) and (max-device-width: 992px) {
+    /* header area start */
+    .header_contant{
+        width: 100%;
+    }
+    .header_logo{
+        width: 15%;
+    }
+    .header_menu{
+        width: 63% ;
+        text-align: right;
+        padding-right: 5px;
+    }
+    .header_menu_item{
+        gap: 5px;
+        
+    }
+    .header_menu_item li a {
+        padding: 8px 8px ;
+        font-size: 15px;
+    
+    }
+    .header_right{
+        width: 22%;
+    }
+    .header_right_item{
+        gap: 1px;
+        
+    }
+    .header_right_item li a {
+        padding: 8px 8px ;
+        font-size: 15px;
+    
+    }
+    /* header area end */
+    
+}
+@media only screen and (max-width: 768px) {
+    .header_contant{
+        position: relative;
+    }
+    .header_menu_item{
+        flex-direction: column;
+        position: absolute;
+        top: 72px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        background-color: #f1f1f1;
+        gap: 5px;
+        padding: 10px 0;
+        display: none;
+    }
+    .header_menu_item li{
+        padding: 5px 0;
+    }
+    .header_icon{
+        display: block;
+    }
+    .header_right{
+        text-align: center !important;
+    }
+
+     /* about ara start */
+     .about_left h2{
+        font-size: 40px;
+    }
+    /* about ara end */
+
+}
+@media only screen and (min-device-width: 426px) and (max-device-width: 499px){
+    /* header area start */
+
+
+    .header_right_item{
+        gap: 1px;
+        
+    }
+    .header_right_item li a {
+        padding: 6px 6px ;
+        font-size: 15px;
+    
+    }
+    .header_right{
+        width: 60%;
+        text-align: center;
+    }
+    .header_icon{
+        width: 20%;
+        text-align: right;
+    }
+    .header_logo{
+        width: 20%;
+    }
+    .header_right_item{
+        gap: 1px;
+        
+    }
+    .header_right_item li a {
+        padding: 6px 10px ;
+        font-size: 14px;
+    
+    }
+    /* header area end */
+
+}
+@media only screen and (min-device-width: 426px) and (max-device-width: 767px){
+    /* herto area start */
+    .hero_area_text h2{
+        margin-top: 185px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .hero_area_text h3{
+        font-size: 28px;
+        line-height: 40px;
+    
+    }
+    
+    .hero_contant {
+        font-size: 14px;
+    }
+    /* herto area end */
+    /* about ara start */
+    .about_left h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .about_right p{
+        font-size: 12px;
+    }
+    .about_item_contant h2{
+        font-size: 30px;
+    }
+    /* about ara end */
+    /* footer atea start */
+
+    .fotter_buttom{
+        flex-direction: column;
+        text-align: center;
+    }
+    /* footer atea end */
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px){
+    /* herto area start */
+    .hero_area_text h2{
+        margin-top: 185px;
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .hero_area_text h3{
+        font-size: 38px;
+        line-height: 60px;
+    
+    }
+    
+    .hero_contant {
+        font-size: 16px;
+    }
+    /* herto area end */
+    /* about area start */
+    .about_item_contant h2{
+        font-size: 38px;
+    }
+    /* about area end */
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 375px){
+
+    .header_right{
+        width: 45%;
+        text-align: right;
+    }
+    .header_icon{
+        width: 25%;
+        text-align: center;
+    }
+    .header_logo{
+        width: 30%;
+    }
+    .header_right_item{
+        gap: 1px;
+        
+    }
+    .header_right_item li a {
+        padding: 6px 5px ;
+        font-size: 14px;
+    
+    }
+    /* herto area start */
+    .hero_area_text h2{
+        margin-top: 185px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .hero_area_text h3{
+        font-size: 20px;
+        line-height: 30px;
+    
+    }
+    
+    .hero_contant {
+        font-size: 14px;
+    }
+    /* herto area end */
+     /* about ara start */
+     .about_left h2{
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .about_right p{
+        font-size: 10px;
+    }
+    .about_item_contant h2{
+        font-size: 25px;
+    }
+    /* about ara end */
+
+    /* get start area start */
+    .getstarted_contant h2{
+        font-size: 30px;
+    }
+    /* get start area end */
+    /* our team area start */
+    .ourTeam_top_btn h2{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .ourTeam_top_btn p{
+        font-size: 14px;
+        line-height: 12px;
+    }
+    /* our team area end */
+    /* faq area start */
+    .faqs_area_top h2{
+        font-size: 30px;
+    }
+    /* faq area end */
+    /* footer atea start */
+
+    .fotter_buttom{
+        flex-direction: column;
+        text-align: center;
+    }
+    /* footer atea end */
+}
+@media only screen and (min-device-width: 376px) and (max-device-width: 425px){
+
+    .header_right{
+        width: 45%;
+        text-align: right;
+    }
+    .header_icon{
+        width: 25%;
+        text-align: right;
+    }
+    .header_logo{
+        width: 30%;
+    }
+    .header_right_item{
+        gap: 1px;
+        
+    }
+    .header_right_item li a {
+        padding: 6px 10px ;
+        font-size: 14px;
+    
+    }
+
+
+    /* herto area start */
+    .hero_area_text h2{
+        margin-top: 185px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .hero_area_text h3{
+        font-size: 20px;
+        line-height: 30px;
+    
+    }
+    
+    .hero_contant {
+        font-size: 14px;
+    }
+    /* herto area end */
+     /* about ara start */
+     .about_left h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .about_right p{
+        font-size: 14px;
+    }
+    .about_item_contant h2{
+        font-size: 25px;
+    }
+    /* about ara end */
+        /* faq area start */
+    .faqs_area_top h2{
+        font-size: 30px;
+    }
+    /* faq area end */
+    /* footer atea start */
+
+    .fotter_buttom{
+        flex-direction: column;
+        text-align: center;
+    }
+    /* footer atea end */
+    
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 354px){
+    /* hero area start  */
+    .hero_area_form form{
+        width: 480px;
+    }
+    .hero_area_form form input{
+        font-size: 13px;
+    }
+    .hero_area_form form input::placeholder{
+        font-size: 13px;
+    }
+    .hero_area_form form button{
+        font-size: 12px;
+        padding: 12px 15px;
+    
+    }
+    /* hero area end */
+
+}
